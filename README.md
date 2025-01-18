@@ -1,75 +1,87 @@
-API Documentation Template
-==========================
+# 🚀 API Documentation Template  
 
-A professional and fast API documentation site powered by **VitePress**.
+_A sleek, modern, and fast API documentation framework powered by **VitePress**._  
 
-Overview
---------
-This is a lightweight and modern documentation framework built using **VitePress** 
-and designed for fast, intuitive, and scalable API documentation.
+---
 
-Developed and maintained by **Austin Reed**.
+## 🌟 Overview  
+This template provides a **lightweight, intuitive, and scalable** documentation system built using **VitePress**.  
+Designed for **clarity** and **speed**, it's the perfect foundation for your API documentation.  
 
-Installation
-------------
-Make sure you have **Node.js (16.x or newer)** and **npm** (or **pnpm/yarn**) installed.
+**Developed and maintained by [Austin Reed](https://github.com/your-username).**  
 
-1. Clone the Repository:
-2. Install Dependencies:
-   Using npm:
-   ```
-   npm install
-   ```
-   Using pnpm:
-   ```
-   pnpm install
-   ```
-   Using yarn:
-   ```
-   yarn install
-   ```
+---
 
-Running the Documentation Locally
----------------------------------
-Start the Development Server:
-```
+## 📦 Installation  
+
+Ensure you have **Node.js (16.x or newer)** and **npm**, **pnpm**, or **yarn** installed.  
+
+### 🔹 Clone the Repository  
+```sh
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```  
+
+### 🔹 Install Dependencies  
+Using npm:  
+```sh
+npm install
+```  
+Using pnpm:  
+```sh
+pnpm install
+```  
+Using yarn:  
+```sh
+yarn install
+```  
+
+---
+
+## 🚀 Running the Documentation Locally  
+
+### ▶ Start the Development Server  
+```sh
 npm run docs:dev
 ```
-Then open **http://localhost:5173** in your browser.
+Then open **[http://localhost:5173](http://localhost:5173)** in your browser.  
 
-Build for Production:
-```
+### 📦 Build for Production  
+```sh
 npm run docs:build
 ```
-This generates a static site inside the `docs/.vitepress/dist` folder.
+This generates a static site inside the `docs/.vitepress/dist` folder.  
 
-Preview Production Build:
-```
+### 👀 Preview Production Build  
+```sh
 npm run docs:preview
-```
+```  
 
-Project Structure
------------------
+---
+
+## 📁 Project Structure  
+
 ```
 📂 your-repo-name
  ┣ 📂 docs
  ┃ ┣ 📜 index.md        # Home page
- ┃ ┣ 📜 example.md      # Example documentation page
  ┃ ┣ 📂 api
  ┃ ┃ ┣ 📜 index.md      # API overview example
  ┃ ┃ ┣ 📜 auth.md       # Authentication API example
- ┃ ┃ ┗ 📜 todo.md      # Todo API example
+ ┃ ┃ ┗ 📜 todo.md       # Todo API example
  ┃ ┗ 📂 .vitepress
  ┃   ┣ 📜 config.js    # VitePress configuration
  ┃   ┣ 📜 theme.css    # Custom styling (optional)
  ┗ 📜 package.json      # Dependencies & scripts
 ```
 
-Customization
--------------
-Modify the `docs/.vitepress/config.js` file to customize navigation, theme, and other settings.
+---
 
-Example **config.js** snippet:
+## 🎨 Customization  
+
+Modify the `docs/.vitepress/config.js` file to adjust **navigation, theme, and settings**.  
+
+### Example **config.js** snippet:  
 ```js
 export default {
   title: "API Docs",
@@ -77,12 +89,35 @@ export default {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Getting Started", link: "/getting-started" },
-      { text: "API Reference", link: "/api-reference" }
-    ]
+      { text: "API", link: "/api/index" }
+    ],
+    sidebar: {
+      "/api/": [
+        { text: "Overview", link: "/api/index" },
+        { text: "Authentication", link: "/api/auth" },
+        { text: "Todo", link: "/api/todo" }
+      ]
+    }
   }
 };
-```
+```  
 
-Have Fun!
-==========================
+---
+
+## 📜 License  
+This project is open-source and licensed under the **MIT License**.  
+
+---
+
+## 💡 Contributions  
+Pull requests and suggestions are always welcome! Feel free to **fork** this repo and contribute.  
+
+---
+
+## 📢 Connect with Austin Reed  
+🔗 **GitHub:** [gruntgrunt32](https://github.com/gruntgrunt32)  
+🔗 **Website:** [Austin-Reed.com](https://austin-reed.com.com)  
+
+---
+
+### 🎉 **Happy Documenting!** 🚀
