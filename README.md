@@ -18,7 +18,7 @@ Ensure you have **Node.js (16.x or newer)** and **npm**, **pnpm**, or **yarn** i
 
 ### 🔹 Clone the Repository  
 ```sh
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/gruntgrunt32/API-Doc-Template.git
 cd your-repo-name
 ```  
 
