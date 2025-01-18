@@ -109,13 +109,8 @@ This project is open-source and licensed under the **MIT License**.
 
 ---
 
-## 💡 Contributions  
-Pull requests and suggestions are always welcome! Feel free to **fork** this repo and contribute.  
-
----
-
 ## 📢 Connect with Austin Reed  
-🔗 **GitHub:** [gruntgrunt32](https://github.com/gruntgrunt32)  
+🔗 **GitHub:** [Gruntgrunt32](https://github.com/gruntgrunt32)  
 🔗 **Website:** [Austin-Reed.com](https://austin-reed.com.com)  
 
 ---
