@@ -8,7 +8,7 @@ _A sleek, modern, and fast API documentation framework powered by **VitePress**.
 This template provides a **lightweight, intuitive, and scalable** documentation system built using **VitePress**.  
 Designed for **clarity** and **speed**, it's the perfect foundation for your API documentation.  
 
-**Developed and maintained by [Austin Reed](https://github.com/your-username).**  
+**Developed and maintained by [Austin Reed](https://github.com/gruntgrunt32).**  
 
 ---
 
