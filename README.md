@@ -54,8 +54,11 @@ Project Structure
 📂 your-repo-name
  ┣ 📂 docs
  ┃ ┣ 📜 index.md        # Home page
- ┃ ┣ 📜 getting-started.md  # Introduction guide
- ┃ ┣ 📜 api-reference.md    # API reference section
+ ┃ ┣ 📜 example.md      # Example documentation page
+ ┃ ┣ 📂 api
+ ┃ ┃ ┣ 📜 index.md      # API overview example
+ ┃ ┃ ┣ 📜 auth.md       # Authentication API example
+ ┃ ┃ ┗ 📜 todo.md      # Todo API example
  ┃ ┗ 📂 .vitepress
  ┃   ┣ 📜 config.js    # VitePress configuration
  ┃   ┣ 📜 theme.css    # Custom styling (optional)
@@ -81,17 +84,5 @@ export default {
 };
 ```
 
-License
--------
-This project is open-source and licensed under the **MIT License**.
-
-Contributions
--------------
-Pull requests and suggestions are welcome! Feel free to **fork** this repo and contribute.
-
-Connect with Austin Reed
-------------------------
-🔗 GitHub: https://github.com/your-username  
-🔗 Website: https://yourwebsite.com  
-
-🚀 Start Documenting Your APIs Today!
+Have Fun!
+==========================
