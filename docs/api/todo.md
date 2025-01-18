@@ -1,8 +1,8 @@
-# Todos
+# Todo
 
 ## Endpoints
 
-### List Todos
+### List Todo Objects
 
 ```http
 GET /todos
@@ -38,7 +38,7 @@ Retrieve all todos for the authenticated user.
 }
 ```
 
-### Create Todo
+### Create Todo Object
 
 ```http
 POST /todos
@@ -71,7 +71,7 @@ Create a new todo item.
 }
 ```
 
-### Update Todo
+### Update Todo Object
 
 ```http
 PATCH /todos/:id
@@ -102,7 +102,7 @@ Update an existing todo item.
 }
 ```
 
-### Delete Todo
+### Delete Todo Object
 
 ```http
 DELETE /todos/:id

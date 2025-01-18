@@ -22,7 +22,7 @@ export default defineConfig({
       {
         text: 'Endpoints',
         items: [
-          { text: 'Todos', link: '/api/todos' },
+          { text: 'Todo', link: '/api/todo' },
         ],
       },
     ],
